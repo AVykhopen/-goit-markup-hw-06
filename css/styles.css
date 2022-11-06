@@ -608,10 +608,12 @@ p {
 }
 .form-label {
 display: block;
+margin-top: 10px;
 margin-bottom: 4px;
 font-size: 12px;
 line-height: 1.17;
 margin-left: 40px;
+color: var(--title-text-color);
 }
 .form-control {
 position: relative;
@@ -660,13 +662,13 @@ height: 40px;
 }
 .contact-form-label {
   display: block;
-  margin-bottom: 8px;
+  margin-bottom: 4px;
   margin-top: 10px;
   margin-left: 40px;
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.01em;
-  color: var(--primery-text-color);
+  color: var(--title-text-color);
 }
 .checkbox-control {
   position: relative;
