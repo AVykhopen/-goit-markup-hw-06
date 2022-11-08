@@ -595,9 +595,9 @@ p {
   border-radius: 50%;
   cursor: pointer;
 }
-.modal-icon {
-  margin-left: 10px;
-  fill: var(--secondary-text-color);
+.modal-close-button:hover,
+.modal-close-button:focus {
+  fill: var(--accent-color);
 }
 .modal-form-title {
   margin-top: 40px;
@@ -691,6 +691,10 @@ height: 40px;
   margin-right: auto;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250 ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+.footer-button:hover,
+.footer-button:focus {
+  background-color: var(--primary-button-color);
+}
 .form-footer-field {
   display: flex;
 }
@@ -761,6 +765,10 @@ height: 40px;
   margin-left: auto;
   margin-right: auto;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250 ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.modal-button:hover,
+.modal-button:focus {
+  background-color: var(--primary-button-color);
 }
 .form-links-social {
   margin-left: 93px;
